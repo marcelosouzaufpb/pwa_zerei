@@ -7,19 +7,127 @@
         <title>Zerei - App</title>
         <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet">
         <link href="css/style.css" rel="stylesheet">
+        <link href="manifest.json" rel="manifest">
+
+        <link rel="shortcut icon" href="icons/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="icons/favicon.ico" type="image/x-icon">
+
+        <!-- iOS meta tags and icons -->
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta name="apple-mobile-web-app-title" content="Zerei">
+        <link rel="apple-touch-icon" href="icons/152.png">
+
+        <meta name="description" content="Zerei">
+        <meta name="theme-color" content="#522583" />
 </head>
 
 <body>
         <div class="container-fluid">
-                <app-home-header></app-home-header>
+                <header class="header fixed-top">
+                        <nav class="navbar navbar-expand-lg bg-light">
+                                <div class="container-fluid">
+                                        <img class="navbar-brand" src="../../img/logo.png"></img>
+                                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" id="menu"
+                                                data-bs-target="#navbarSupportedContent"
+                                                aria-controls="navbarSupportedContent" aria-expanded="false"
+                                                aria-label="Toggle navigation" onclick="showMenu()">
+                                                <span class="navbar-toggler-icon"></span>
+                                        </button>
+                                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                                <ul class="navbar-nav justify-content-center">
+                                                        <li class="nav-item"><a class="nav-link active"
+                                                                onclick="btnCategory('Todos')"
+                                                                data-item="Todos" href="#">Todos</a></li>
+                                                        <li class="nav-item"><a class="nav-link active"
+                                                                        onclick="btnCategory('MMORPG')"
+                                                                        data-item="MMORPG" href="#">MMORPG</a></li>
+                                                        <li class="nav-item"><a class="nav-link active"
+                                                                        onclick="btnCategory('Shooter')"
+                                                                        data-item="Shooter" href="#">Shooter</a></li>
+                                                        <li class="nav-item"><a class="nav-link active"
+                                                                        onclick="btnCategory('MOBA')" data-item="MOBA"
+                                                                        href="#">MOBA</a></li>
+                                                        <li class="nav-item"><a class="nav-link active"
+                                                                        onclick="btnCategory('Anime')" data-item="Anime"
+                                                                        href="#">Anime</a></li>
+                                                        <li class="nav-item"><a class="nav-link active"
+                                                                        onclick="btnCategory('battle-royale')"
+                                                                        data-item="Battle Royale" href="#">Battle
+                                                                        Royale</a></li>
+                                                        <li class="nav-item"><a class="nav-link active"
+                                                                        onclick="btnCategory('Strategy')"
+                                                                        data-item="Strategy" href="#">Strategy</a></li>
+                                                        <li class="nav-item"><a class="nav-link active"
+                                                                        onclick="btnCategory('Fantasy')"
+                                                                        data-item="Fantasy" href="#">Fantasy</a></li>
+                                                        <li class="nav-item"><a class="nav-link active"
+                                                                        onclick="btnCategory('sci-fi')"
+                                                                        data-item="Sci-Fi" href="#">Sci-Fi</a></li>
+                                                        <li class="nav-item"><a class="nav-link active"
+                                                                        onclick="btnCategory('card-game-fi')"
+                                                                        data-item="Card Game-Fi" href="#">Card
+                                                                        Game-Fi</a></li>
+                                                        <li class="nav-item"><a class="nav-link active"
+                                                                        onclick="btnCategory('Racing')"
+                                                                        data-item="Racing" href="#">Racing</a></li>
+                                                        <li class="nav-item"><a class="nav-link active"
+                                                                        onclick="btnCategory('Figthing')"
+                                                                        data-item="Figthing" href="#">Figthing</a></li>
+                                                        <li class="nav-item"><a class="nav-link active"
+                                                                        onclick="btnCategory('Social')"
+                                                                        data-item="Social" href="#">Social</a></li>
+                                                        <li class="nav-item"><a class="nav-link active"
+                                                                        onclick="btnCategory('Sport')" data-item="Sport"
+                                                                        href="#">Sport</a></li>
+                                                </ul>
+                                        </div>
+                                </div>
+                        </nav>
 
-                <app-home-main></app-home-main>
+                        <div class="container">
+                                <div class="row">
+                                        <div class="col col-12 ">
+                                                <input class="form-control search" type="search" placeholder="Search"
+                                                        aria-label="Search">
+                                        </div>
+                                </div>
+                        </div>
+                </header>
 
-                <app-home-footer></app-home-footer>
+                <main class="main">
+                        <div class="row card-title">
+                                <div class="col col-12">
+                                        <h2 id="cardTitle">Todos os Generos</h2>
+                                </div>
+                        </div>
+
+                        <div id="contentMain" class="row"></div>
+                        <div class="row">
+                                <div class="col col-12" id="loadArea">
+                                        <button type="button" class="btn btn-primary btn-sm mb-3" id="btnLoadMore"
+                                                onclick="loadMore()">Carregar mais</button>
+                                </div>
+                        </div>
+                </main>
+
+                <footer class="footer fixed-bottom">
+                        <button type="button" class="btn btn-install" id="btnInstall">Primary</button>
+                </footer>
         </div>
 
         <script src="js/bootstrap/bootstrap.bundle.min.js"></script>
-        <script src="js/view.js"></script>
+        <script src="app.js"></script>
+        <script>
+                let swRegister = null;
+                if ('serviceWorker' in navigator) {
+                        window.addEventListener("load", () => {
+                                navigator.serviceWorker.register("service-worker.js").then((reg) => {
+                                        swRegister = reg;
+                                })
+                        });
+                }
+        </script>
 </body>
 
 </html>
