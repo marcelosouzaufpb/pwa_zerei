@@ -1,0 +1,59 @@
+[
+
+    {
+        "titulo":"O Pequeno Principe",
+        "descricao":"Essa é uma breve descrição do titulo do livro. Ela deve ser pequena para ter fácil leitura.",
+        "imagem":"img/livros/livro_006.jpg",
+        "url_compra":"https://www.amazon.com/Pequeno-Pr%C3%ADncipe-Portuguese-Antoine-Saint-Exup%C3%A9ry/dp/150715903X",
+        "categoria":"Ficção",
+        "html_amostra":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus fringilla maximus metus, a suscipit nibh rhoncus nec. Vivamus eget diam sagittis, rhoncus tellus sit amet, euismod justo. Nullam et est felis. Maecenas ut felis et mi pulvinar condimentum facilisis non massa. Suspendisse vel dolor lectus. Morbi vulputate laoreet dolor in viverra. Integer at erat finibus, congue mauris sed, commodo leo. Etiam non orci quam."
+    },
+    {
+        "titulo":"A Teoria de Tudo",
+        "descricao":"Essa é uma breve descrição do titulo do livro. Ela deve ser pequena para ter fácil leitura.",
+        "imagem":"img/livros/livro_007.jpg",
+        "categoria":"Fantasia",
+        "url_compra":"https://www.amazon.com/Pequeno-Pr%C3%ADncipe-Portuguese-Antoine-Saint-Exup%C3%A9ry/dp/150715903X",
+        "html_amostra":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus fringilla maximus metus, a suscipit nibh rhoncus nec. Vivamus eget diam sagittis, rhoncus tellus sit amet, euismod justo. Nullam et est felis. Maecenas ut felis et mi pulvinar condimentum facilisis non massa. Suspendisse vel dolor lectus. Morbi vulputate laoreet dolor in viverra. Integer at erat finibus, congue mauris sed, commodo leo. Etiam non orci quam."
+    },
+    {
+        "titulo":"A Saga Wingfeather: nos Limites do mar Sombrio da Escuridão",
+        "descricao":"AVENTURA. PERIGO. JOIAS PERDIDAS. E AS TERRÍVEIS VACAS-DENTADAS DE SKREE.",
+        "imagem":"img/livros/livro_005.jpg",
+        "categoria":"Romance",
+        "url_compra":"https://www.amazon.com/Pequeno-Pr%C3%ADncipe-Portuguese-Antoine-Saint-Exup%C3%A9ry/dp/150715903X",
+        "html_amostra":"No mesmo estilo imaginativo de C.S. Lewis, a Saga Wingfeather, de Andrew Peterson, é uma fantasia épica e redentiva, considerada As Crônicas de Nárnia para uma nova geração. Quando as crianças Igiby fogem com sua mãe e seu avô, um ex-pirata, através do Mar Sombrio da Escuridão, elas acabam cara a cara com um segredo monstruoso. Feridas antigas trarão dor, conforme a guerra estoura e um poderoso inimigo se revela. Os três irmãos precisam correr contra o tempo para encontrar um"
+    },  
+    {
+        "titulo":"De Volta para o Futuro",
+        "descricao":"Essa é uma breve descrição do titulo do livro. Ela deve ser pequena para ter fácil leitura.",
+        "imagem":"img/livros/livro_001.jpg",
+        "url_compra":"https://www.amazon.com/Pequeno-Pr%C3%ADncipe-Portuguese-Antoine-Saint-Exup%C3%A9ry/dp/150715903X",
+        "categoria":"Ficção",
+        "html_amostra":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus fringilla maximus metus, a suscipit nibh rhoncus nec. Vivamus eget diam sagittis, rhoncus tellus sit amet, euismod justo. Nullam et eectus. Morbi vulputate laoreet dolor in viverra. Integer at erat finibus, congue mauris sed, commodo leo. Etiam non orci quam."
+    },
+    {
+        "titulo":"Star Wars Best Ebook",
+        "descricao":"Essa é uma breve descrição do titulo do livro. Ela deve ser pequena para ter fácil leitura",
+        "categoria":"Ficção",
+        "imagem":"img/livros/livro_003.jpg",
+        "url_compra":"https://www.amazon.com/Pequeno-Pr%C3%ADncipe-Portuguese-Antoine-Saint-Exup%C3%A9ry/dp/150715903X",
+        "html_amostra":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus fringilla maximus metus, a suscilectus. Morbi vulputate laoreet dolor in viverra. Integer at erat finibus, congue mauris sed, commodo leo. Etiam non orci quam."
+    },
+    {
+        "titulo":"A Teoria de Tudo",
+        "descricao":"Essa é uma breve descrição do titulo do livro. Ela deve ser pequena para ter fácil leitura.",
+        "imagem":"img/livros/livro_004.jpg",
+        "categoria":"Romance",
+        "url_compra":"https://www.amazon.com/Pequeno-Pr%C3%ADncipe-Portuguese-Antoine-Saint-Exup%C3%A9ry/dp/150715903X",
+        "html_amostra":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus fringilla maximus metus, a suscipit nibh rhoncus nec. Vivamus eget diam sagittis, rhoncus tellus sit amet, euismod justo. Nullam et est felis. Maecenas ut felis et mi pulvinar condimentum facilisis non massa. Suspendisse vel dolor lectus. Morbi vulputate laoreet dolor in viverra. Integer at erat finibus, congue mauris sed, commodo leo. Etiam non orci quam."
+    },
+    {
+        "titulo":"A Vida é Bela",
+        "descricao":"Essa é uma breve descrição do titulo do livro. Ela deve ser pequena para ter fácil leitura.",
+        "imagem":"img/livros/livro_005.jpg",
+        "categoria":"Romance",
+        "url_compra":"https://www.amazon.com/Pequeno-Pr%C3%ADncipe-Portuguese-Antoine-Saint-Exup%C3%A9ry/dp/150715903X",
+        "html_amostra":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus fringilla maximus metus, a suscipit nibh rhoncus nec. Vivamus eget diam sagittis, rhoncus tellus sit amet, euismod justo. Nullam et est felis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus fringilla maximus metus, a suscipit nibh rhoncus nec. Vivamus eget diam sagittis, rhoncus tellus sit amet, euismod justo. Nullam et est felis. Maecenas ut felis et mi pulvinar condimentum facilisis non massa. Suspendisse vel dolor lectus. Morbi vulputate laoreet dolor in viverra. Integer at erat finibus, congue mauris sed, commodo leo. Etiam non orci quam."
+    }       
+]
